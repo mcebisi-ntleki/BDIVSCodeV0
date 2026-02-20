@@ -233,7 +233,7 @@ def display_statistics(stats):
     print(f"  Diastolic BP: {stats['avg_diastolic']} mmHg")
     print(f"  Heart Rate: {stats['avg_heart_rate']} bpm")
     print(f"{'='*60}\n")
-
+ 
 def main():
     """Main function to run the health data analyzer."""
     print("="*60)
