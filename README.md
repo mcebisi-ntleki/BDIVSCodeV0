@@ -43,12 +43,12 @@ Run the program and select from the menu:
 - Underweight: < 18.5
 - Normal weight: 18.5-24.9
 - Overweight: 25-29.9
-- Obese: ≥ 30
+- Obese: >= 30
 
 **Blood Pressure Categories (AHA):**
 - Normal: < 120/80 mmHg
 - Elevated: 120-129/<80 mmHg
 - Hypertension Stage 1: 130-139/80-89 mmHg
-- Hypertension Stage 2: ≥ 140/≥ 90 mmHg
+- Hypertension Stage 2: >= 140/>= 90 mmHg
 
 
