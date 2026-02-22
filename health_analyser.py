@@ -248,9 +248,9 @@ def main():
     
     while True:
         print("\nOptions:")
-        print("1. Analyze individual patient")
+        print("1. Analyse individual patient")
         print("2. View cohort statistics")
-        print("3. Generate visualizations")
+        print("3. Generate visualisations")
         print("4. View all patients summary")
         print("5. Exit")
         
