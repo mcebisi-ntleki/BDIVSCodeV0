@@ -234,6 +234,27 @@ def display_statistics(stats):
     print(f"  Heart Rate: {stats['avg_heart_rate']} bpm")
     print(f"{'='*60}\n")
  
+def calculate_heart_rate_zones(age):
+    """
+    Calculate target heart rate zones based on age.
+    
+    Args:
+        age (int): Patient age in years
+        
+    Returns:
+        dict: Heart rate zones
+    """
+    max_hr = 220 - age
+    
+    zones = {
+        'resting': (60, 100),
+        'fat_burn': (int(max_hr * 0.5), int(max_hr * 0.7)),
+        'cardio': (int(max_hr * 0.7), int(max_hr * 0.85)),
+        'peak': (int(max_hr * 0.85), int(max_hr * 0.95))
+    }
+    
+    return zones
+
 def main():
     """Main function to run the health data analyzer."""
     print("="*60)
